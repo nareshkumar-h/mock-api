@@ -1,9 +1,104 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": "7cd8",
+      "name": "Kaleeswaran V",
+      "email": "vkalees64@gmail.com",
+      "phone": "+91-8248589198",
+      "password": "Vairamages@64",
+      "dob": "2003-05-24",
+      "role": {
+        "type": "employee",
+        "title": "Employee"
+      },
+      "total_leaves": 36,
+      "pending_leaves": 18,
+      "casual_leaves": 4,
+      "sick_leaves": 2,
+      "paid_leaves": 12,
+      "pay_offs": 0
+    },
+    {
+      "id": "7cd9",
+      "name": "Arun",
+      "email": "vkalees@gmail.com",
+      "phone": "+91-9786935749",
+      "password": "Admin@64",
+      "dob": "2024-09-23",
+      "role": {
+        "type": "admin",
+        "title": "Admin"
+      },
+      "total_leaves": 36,
+      "pending_leaves": 36,
+      "casual_leaves": 12,
+      "sick_leaves": 12,
+      "paid_leaves": 12,
+      "pay_offs": 0
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "leavemails": [
+    {
+      "id": "0b3c",
+      "emp_id": "7cd8",
+      "name": "Kaleeswaran V",
+      "email": "vkalees64@gmail.com",
+      "leave_from": "03/09/2024",
+      "leave_to": "13/09/2024",
+      "reason": "I am suffering from Fever",
+      "new": false,
+      "type": "sick",
+      "created_date": "23/09/2024",
+      "modified_date": "23/09/2024",
+      "total_days": 10
+    },
+    {
+      "id": "f787",
+      "emp_id": "7cd8",
+      "name": "Kaleeswaran V",
+      "email": "vkalees64@gmail.com",
+      "leave_from": "24/09/2024",
+      "leave_to": "02/10/2024",
+      "reason": "I am going to family tour",
+      "new": false,
+      "type": "casual",
+      "created_date": "23/09/2024",
+      "modified_date": "23/09/2024",
+      "total_days": 8,
+      "status": true
+    },
+    {
+      "id": "bbd8",
+      "emp_id": "7cd8",
+      "name": "Kaleeswaran V",
+      "email": "vkalees64@gmail.com",
+      "leave_from": "15/10/2024",
+      "leave_to": "20/10/2024",
+      "reason": "Temple Festival",
+      "new": false,
+      "type": "",
+      "created_date": "23/09/2024",
+      "modified_date": "23/09/2024",
+      "total_days": 5,
+      "status": false,
+      "r_reason": "Your festival leaves are cancelled due to your work pendings"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "attendances": [
+    
+  ],
+  "holidays": [
+    {
+      "id": "8631",
+      "name": "Diwali",
+      "date": "20/09/2024",
+      "publicHoliday": true
+    },
+    {
+      "id": "cad4",
+      "name": "Power Cut",
+      "date": "28/09/2024",
+      "publicHoliday": false
+    }
+  ]
 }
